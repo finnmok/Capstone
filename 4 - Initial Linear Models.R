@@ -60,7 +60,12 @@ get.model <- function(topic,sector,log.donations = FALSE,top.weight=0.4,include.
 
 
 
-Linear Model Breakdown by Topic (Equations represent example probability predictions for either 0th,50th, or 80th percentile for the best model for that topic)
+##################Linear Model Breakdown by Topic########################
+#Equations represent example probability predictions for                #
+# either 0th,50th, or 80th percentile for the best model for that topic #
+#########################################################################
+
+
 #Energy
 get.model("tw.energy","Energy",top.weight=0.25,log.donations = TRUE) #Better model
 
